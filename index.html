@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css"
+    </head>
+    <body ng-app="dummyApp" ng-controller="MainController as MCtrl">
+        <div class="row" ui-view></div>
+    </body>
+    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendor/angular/angular.min.js"></script>
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <script src="app/app.module.js"></script>
+    <script src="app/app.routes.js"></script>
+    <script src="app/app.constants.js"></script>
+
+    <script src="app/components/mainController/main.controller.js"></script>
+    <script src="app/components/dashboard/dashboard.controller.js"></script>
+
+    <script src="app/components/dashboard/dashboard.service.js"></script>
+</html>
